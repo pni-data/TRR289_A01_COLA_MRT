@@ -79,3 +79,11 @@ bids-validator@1.15.0
 
 
 [36m	If you have any questions, please post on https://neurostars.org/tags/bids.[39m
+
+
+	010 has two runs and two field maps for “test” (correctly mapped in the json)
+    012 only has T1 and rs-fMRI
+    041 take “test” and corresponding field maps from run 2 (correctly mapped in the json)
+    046 take “test” from run 2 but fieldmaps from run 1 (correctly mapped in the json)
+    051 take “cond” from run 2 but fieldmaps from run 1 (correctly mapped in the json)
+ 
